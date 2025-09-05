@@ -14,3 +14,28 @@ A full-stack portal for students to **discover internships**, **apply**, and **s
 - **Database:** MySQL (or your DB—update name below)
 - **Frontend:** HTML/CSS/JS (+ Bootstrap if used)
 - **Tools/IDE:** NetBeans / VS Code 
+
+## 🔹 Project Structure
+
+Internship-Portal/
+├─ src/
+│ └─ java/
+│ ├─ Model/ # Database connection + logic
+│ └─ Servlet/ # Java Servlets (controllers)
+│ ├─ AdminLoginServlet.java
+│ └─ RegisterServlet.java
+├─ web/
+│ ├─ WEB-INF/ # JSP pages
+│ │ ├─ index.jsp
+│ │ ├─ register.jsp
+│ │ ├─ company.jsp
+│ │ └─ ... more JSPs
+├─ schema/
+│ ├─ 00_create_tables.sql # Creates database schema
+│ └─ 01_sample_data.sql # Inserts demo data
+├─ nbproject/ # NetBeans project settings
+├─ build.xml # Build script
+├─ README.md
+└─ LICENSE
+
+
