@@ -21,21 +21,21 @@ Internship-Portal/
 ├─ src/
 │ └─ java/
 │ ├─ Model/ # Database connection + logic
+│ │ └─ DBConnection.java
 │ └─ Servlet/ # Java Servlets (controllers)
 │ ├─ AdminLoginServlet.java
 │ └─ RegisterServlet.java
 ├─ web/
-│ ├─ WEB-INF/ # JSP pages
-│ │ ├─ index.jsp
-│ │ ├─ register.jsp
-│ │ ├─ company.jsp
-│ │ └─ ... more JSPs
-├─ schema/
-│ ├─ 00_create_tables.sql # Creates database schema
+│ └─ WEB-INF/ # JSP pages
+│ ├─ index.jsp
+│ ├─ register.jsp
+│ ├─ company.jsp
+│ └─ ... more JSPs
+├─ schema/ # Database scripts
+│ ├─ 00_create_tables.sql # Creates schema
 │ └─ 01_sample_data.sql # Inserts demo data
 ├─ nbproject/ # NetBeans project settings
 ├─ build.xml # Build script
 ├─ README.md
 └─ LICENSE
-
 
