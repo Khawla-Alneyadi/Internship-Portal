@@ -5,11 +5,11 @@ Students can discover internships, apply, and share feedback, while companies ca
 # Features:
 
 **🔹 Student Module**
-** Create an account or log in as an existing user.
-** Browse/search companies offering internships.
-*View internship offers and feedback from other students.
-*Apply for internships and track application status.
-Submit feedback/reviews about specific companies.
+- Create an account or log in as an existing user.
+-  Browse/search companies offering internships.
+- View internship offers and feedback from other students.
+- Apply for internships and track application status.
+- Submit feedback/reviews about specific companies.
 
 **🏢 Company Dashboard**
 Login with credentials provided by the admin.
