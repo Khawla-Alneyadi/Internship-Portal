@@ -1,40 +1,30 @@
-# Internship Portal
+# 📘 Internship Portal
+A full-stack Internship Management System that connects students, companies, and administrators.
+Students can discover internships, apply, and share feedback, while companies can post opportunities, and admins oversee accounts and approvals.
 
-A full-stack portal for students to **discover internships**, **apply**, and **share reviews**, with **admin tools** for managing postings.
+# Features:
 
-## 🔹 Features
-- Student signup/login and profile
-- Browse/search internships, view details
-- Apply and track application status
-- Company reviews and ratings
-- Admin: post approval, manage companies & listings
+# 🔹 Student Module
+Create an account or log in as an existing user.
+Browse/search companies offering internships.
+View internship offers and feedback from other students.
+Apply for internships and track application status.
+Submit feedback/reviews about specific companies.
 
-## 🔹 Tech Stack
-- **Backend:** Java (Servlets/JSP or Spring—adjust here if you used Spring)
-- **Database:** MySQL (or your DB—update name below)
-- **Frontend:** HTML/CSS/JS (+ Bootstrap if used)
-- **Tools/IDE:** NetBeans / VS Code 
+# 🏢 Company Dashboard
+Login with credentials provided by the admin.
+Post new internship/job offers.
+Manage listings and view student applications.
+Interact with student feedback.
 
-## 🔹 Project Structure
+# 👨‍💼 Administrator Panel
+Approve and register new companies (issue login credentials).
+Oversee system activity (students, companies, reviews).
+Moderate postings and maintain the platform.
 
-Internship-Portal/
-├─ src/
-│ └─ java/
-│ ├─ Model/ # Database connection + logic
-│ │ └─ DBConnection.java
-│ └─ Servlet/ # Java Servlets (controllers)
-│ ├─ AdminLoginServlet.java
-│ └─ RegisterServlet.java
-├─ web/
-│ └─ WEB-INF/ # JSP pages
-│ ├─ index.jsp
-│ ├─ register.jsp
-│ ├─ company.jsp
-│ └─ ... more JSPs
-├─ schema/ # Database scripts
-│ ├─ 00_create_tables.sql
-│ └─ 01_sample_data.sql
-├─ nbproject/ # NetBeans project settings
-├─ build.xml # Build script
-├─ README.md
-└─ LICENSE
+# 🔹 Tech Stack
+Backend: Java (Servlets + JSP)
+Frontend: HTML, CSS, JavaScript (Bootstrap optional)
+Database: MySQL
+Tools/IDE: NetBeans, VS Code
+Build Tool: Ant (build.xml)
