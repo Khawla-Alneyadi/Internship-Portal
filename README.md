@@ -1,6 +1,3 @@
-# Internship-Portal
-Full-stack internship management system (Java, SQL, HTML/CSS/JS): browse/apply to internships, reviews, and admin workflows.
-
 # Internship Portal
 
 A full-stack portal for students to **discover internships**, **apply**, and **share reviews**, with **admin tools** for managing postings.
