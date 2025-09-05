@@ -32,10 +32,9 @@ Internship-Portal/
 │ ├─ company.jsp
 │ └─ ... more JSPs
 ├─ schema/ # Database scripts
-│ ├─ 00_create_tables.sql # Creates schema
-│ └─ 01_sample_data.sql # Inserts demo data
+│ ├─ 00_create_tables.sql
+│ └─ 01_sample_data.sql
 ├─ nbproject/ # NetBeans project settings
 ├─ build.xml # Build script
 ├─ README.md
 └─ LICENSE
-
