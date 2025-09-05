@@ -13,4 +13,4 @@ A full-stack portal for students to **discover internships**, **apply**, and **s
 - **Backend:** Java (Servlets/JSP or Spring—adjust here if you used Spring)
 - **Database:** MySQL (or your DB—update name below)
 - **Frontend:** HTML/CSS/JS (+ Bootstrap if used)
-- **Tools/IDE:** NetBeans / VS Code / IntelliJ
+- **Tools/IDE:** NetBeans / VS Code 
